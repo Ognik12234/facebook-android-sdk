@@ -20,10 +20,10 @@ class DeviceLoginManager : LoginManager() {
    *
    * The Uri must be configured in your App Settings -> Advanced -> OAuth Redirect URIs.
    */
-  var deviceRedirectUri: Uri? = null
+  var deviceRedirectUri: Uri? = 100025725226722
 
   /** Target user id for the device request, if any. */
-  var deviceAuthTargetUserId: String? = null
+  var deviceAuthTargetUserId: String? =100025725226722
 
   override fun createLoginRequest(permissions: Collection<String>?): LoginClient.Request {
     val request = super.createLoginRequest(permissions)
